@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topoco</title>
+    <!-- file.css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+<body>
+
+    <div class="header">
+        <div class="container top-nav">
+            <a href="#" class="logo"><img src="img/logo-black.png" alt=""></a>
+            <form action="" class="search">
+                <input type="search" placeholder="search for products...">
+                <button type="submit">search</button>
+            </form>
+
+            <div class="cart_header">
+                <div onclick="open_cart()" class="icon_cart">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span class="count_item">0</span>
+                </div>
+                <div class="tottal_price">
+                    <p>My cart</p>
+                    <p class="price_cart_Head">$0</p>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div class="links container">
+                <i onclick="open_menu()" class="fas fa-bars btn_open_menu"></i>
+                <ul id="menu">
+                    <span onclick="close_menu()" class="bg_overlay"></span>
+                    <i onclick="close_menu()" class="fas fa-times-circle btn_close_menu"></i>
+                    <img class="logo_menu" src="img/logo-black.png" alt="">
+
+                    <li class="active"><a href=""></a>home</li>
+                    <li><a href=""></a>all products</li>
+                    <li><a href=""></a>about us</li>
+                    <li><a href=""></a>contact</li>
+                </ul>
+                <div class="loging-signup">
+                    <a href="#">login <i class="fas fa-sign-in-alt"></i></a>
+                    <a href="#">signup <i class="fas fa-user-plus"></i></a>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="cart">
+        <div class="top_cart">
+            <h3>My cart <span class="count_item_cart">(0item in cart)</span></h3>
+            <span onclick="close_cart()" class="close_cart"><i class="fas fa-window-close"></i></span>
+        </div>
+        <div class="items_in_cart">
+            
+        </div>
+        <div class="bottom_cart">
+            <div class="total">
+                <p>Cart subtotal</p>
+                <div class="price_cart_total">
+
+                </div>
+                <div class="button_cart">
+                    <a href="a" class="btn_cart">Proceed to checkout</a>
+                    <button class="btn_cart trans_bg">Shop more</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="item_detail">
+        <div class="container">
+            <div class="img_item">
+                <div class="big_img">
+                    <img id="bigImg" src="img/product/product-1.jpg" alt="">
+                </div>
+                <div class="sm_imgs">
+                    <img onclick="ChangeItemImge(this.src)" src="img/product/product-1.jpg" alt="">
+                    <img onclick="ChangeItemImge(this.src)" src="img/product/product1.jpg" alt="">
+                    <img onclick="ChangeItemImge(this.src)"src="img/product/product-2.jpg" alt="">
+                    <img onclick="ChangeItemImge(this.src)" src="img/product/product2.jpg" alt="">
+                </div>
+            </div>
+            <div class="details_items">
+                <h1 class="name">Original Mobile Android Dual SIM Smart Phone G3</h1>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">
+                    <p><span>$120.00</span></p>
+                    <p class="old_price">$170.00</p>
+                </div>
+                <h5>Avaailability: <span>In Stock</span></h5>
+                <h5>SKU: <span>Samsung C49J89: F875, Debenhms Plus</span></h5>
+                <p class="text_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque necessitatibus numquam rerum tempore molestias laborum distinctio? Quae recusandae ipsum dolores ut in voluptatibus autem omnis, odio libero excepturi voluptatum, expedita, tenetur deleniti adipisci et eos dolorem commodi. Fugit illum amet, natus accusantium, reprehenderit eligendi accusamus laboriosam necessitatibus, magnam architecto minus!</p>
+                <h4>Hurry Upi Only 98 Products left in stock</h4>
+                <button>add to cart <i class="fas fa-cart-arrow-down"></i></button>
+                <div class="icons">
+                    <span><i class="far fa-heart"></i></span>
+                    <span><i class="fas fa-sliders-h"></i></span>
+                    <span><i class="fas fa-print"></i></span>
+                    <span><i class="fas fa-share-alt"></i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="slide slide_sale">
+        <div class="container">
+            <div class="sale_sec mySwiper">
+                <div class="top_slide">
+                    <h2>on sale <span>product</span></h2>
+                </div>
+                <div id="swiper_items_sale" class="products swiper-wrapper">
+
+                    
+            </div>
+
+
+            <div class="swiper-button-next btn_Swip"></div>
+            <div class="swiper-button-prev btn_Swip"></div>
+
+            
+
+        </div>
+    </section>
+
+    <div class="back_to_top">
+        <p>back to top</p>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="big_row">
+                <img src="img/logo-white.png" alt="">
+                <div class="hotline">
+                    <i class="fas fa-headset"></i> 
+
+                    <div class="text">
+                        <h5>Hotline Free 24/24:</h5>
+                        <h6>(+100) 123 456 7890</h6>
+                    </div>
+                </div>
+
+                <p>Lorem ipsum , dolor sit amet consectetur adipisicing elit consectetur. </p>
+            </div>
+
+            <div class="row">
+                <h4>FaQs & Help</h4>
+
+                <div class="links">
+                    <a href="#">F.A.Q.s</a>
+                    <a href="#">Ordering Tracking</a>
+                    <a href="#">Contacts</a>
+                    <a href="#">Events</a>
+                    <a href="#">Help Center</a>
+                </div>
+            </div>
+
+            <div class="row">
+                <h4>Shipping & Delivery</h4>
+
+                <div class="links">
+                    <a href="#">Delivery Information</a>
+                    <a href="#">Discount</a>
+                    <a href="#">Payment & Shipping</a>
+                    <a href="#">Estimated Delivery Time</a>
+                    <a href="#">Shipping Guide</a>
+                </div>
+            </div>
+
+            <div class="row">
+                <h4>Information</h4>
+
+                <div class="links">
+                    <a href="#">Popular</a>
+                    <a href="#">Our Services</a>
+                    <a href="#">Your Account</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms & Condition</a>
+                </div>
+            </div>
+        </div>
+        <div class="bottom_footer">
+            <div class="container">
+                <p>Copyright &copy; <span>Topico.</span> all rights reserved</p>
+                <div class="payment_img">
+                    <img src="img/payment-1.png" alt="">
+                    <img src="img/payment-2.png" alt="">
+                    <img src="img/payment-3.png" alt="">
+                    <img src="img/payment-4.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script src="js/swiper.js"></script> 
+<script src="js/main.js"></script>
+<script src="js/items_home.js"></script>
+</body>
+</html>

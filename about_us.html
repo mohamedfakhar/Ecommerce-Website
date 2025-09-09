@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topoco</title>
+    <!-- file.css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+<body>
+    <div class="header">
+        <div class="container top-nav">
+            <a href="index.html" class="logo"><img src="img/logo-black.png" alt=""></a>
+            <form action="" class="search">
+                <input type="search" placeholder="search for products...">
+                <button type="submit">search</button>
+            </form>
+
+            <div class="cart_header">
+                <div onclick="open_cart()" class="icon_cart">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span class="count_item">0</span>
+                </div>
+                <div class="tottal_price">
+                    <p>My cart</p>
+                    <p class="price_cart_Head">$0</p>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div class="links container">
+                <i onclick="open_menu()" class="fas fa-bars btn_open_menu"></i>
+                <ul id="menu">
+
+                    <span onclick="close_menu()" class="bg_overlay"></span>
+                    <i onclick="close_menu()" class="fas fa-times-circle btn_close_menu"></i>
+                    <img class="logo_menu" src="img/logo-black.png" alt="">
+
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="all_products.html">all products</a></li>
+                    <li class="active"><a href="about_us.html">about us</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+                <div class="loging-signup">
+                    <a href="login.html">login <i class="fas fa-sign-in-alt"></i></a>
+                    <a href="signup_page.html">signup <i class="fas fa-user-plus"></i></a>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="about_us">
+        <h1>About Us</h1>
+        <section class="about-section">
+            <h2>Welcome to Topico!</h2>
+            <p>
+                At Topico, we are passionate about delivering the best online shopping experience. 
+                We provide a wide range of high-quality products, from electronics to fashion, all tailored to meet your needs.
+            </p>
+            <p>
+                Founded in 2023, our mission is to combine convenience and quality, ensuring that every customer finds what they’re looking for. 
+                Our vision is to be the most customer-centric platform, where trust and satisfaction come first.
+            </p>
+            <h3>Our Values:</h3>
+            <ul>
+                <li>Quality Products</li>
+                <li>Exceptional Customer Service</li>
+                <li>Innovation and Creativity</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>

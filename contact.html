@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topoco</title>
+    <!-- file.css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+<body>
+    
+    <div class="header">
+        <div class="container top-nav">
+            <a href="index.html" class="logo"><img src="img/logo-black.png" alt=""></a>
+            <form action="" class="search">
+                <input type="search" placeholder="search for products...">
+                <button type="submit">search</button>
+            </form>
+
+            <div class="cart_header">
+                <div onclick="open_cart()" class="icon_cart">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span class="count_item">0</span>
+                </div>
+                <div class="tottal_price">
+                    <p>My cart</p>
+                    <p class="price_cart_Head">$0</p>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div class="links container">
+                <i onclick="open_menu()" class="fas fa-bars btn_open_menu"></i>
+                <ul id="menu">
+
+                    <span onclick="close_menu()" class="bg_overlay"></span>
+                    <i onclick="close_menu()" class="fas fa-times-circle btn_close_menu"></i>
+                    <img class="logo_menu" src="img/logo-black.png" alt="">
+
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="all_products.html">all products</a></li>
+                    <li><a href="about_us.html">about us</a></li>
+                    <li class="active"><a href="contact.html">contact</a></li>
+                </ul>
+                <div class="loging-signup">
+                    <a href="login.html">login <i class="fas fa-sign-in-alt"></i></a>
+                    <a href="signup_page.html">signup <i class="fas fa-user-plus"></i></a>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <main class="contact">
+        <section class="contact_form">
+            <div class="contact_item">
+                <h2>Contact Us</h2>
+            </div>
+            <div class="container_con">
+                <p>If you have any questions, concerns, or feedback, feel free to reach out to us by filling out the form below. We’d love to hear from you!</p>
+                
+                <form action="#" method="post">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="contact-info">
+            <div class="container_contact">
+                <h3>Get in Touch</h3>
+                <ul>
+                    <li><strong>Email:</strong> <a href="mailto:info@topico.com">info@topico.com</a></li>
+                    <li><strong>Phone:</strong> +123 456 789</li>
+                    <li><strong>Address:</strong> 123 Street Name, City, Country</li>
+                </ul>
+                <p>Our team is available 24/7 to assist you with your inquiries.</p>
+            </div>
+        </section>
+    </main>
+
+
+    
+</body>
+</html>
