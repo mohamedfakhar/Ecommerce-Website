@@ -44,6 +44,22 @@ A modern, fully responsive e-commerce web application with a focus on clean UI a
 
 ## 👨‍💻 How to Run Locally
 
-1. Clone the repo:
+1. Clone the repository:
    ```bash
-   git clone [https://github.com/YourUsername/YourRepoName.git](https://github.com/YourUsername/YourRepoName.git)
+   git clone https://github.com/mohamedfakhar/Ecommerce-Website.git
+   cd Ecommerce-Website
+   ```
+
+2. Open `index.html` directly in your browser, or run with a local server such as VS Code Live Server:
+   ```bash
+   # Using npx serve (optional)
+   npx serve .
+   ```
+
+---
+
+## 👤 Author
+
+**Mohamed Elshahat Ibrahim**  
+- GitHub: [@mohamedfakhar](https://github.com/mohamedfakhar)  
+- LinkedIn: [Mohamed Fakhr](https://www.linkedin.com/in/mohamed-fakhr)
