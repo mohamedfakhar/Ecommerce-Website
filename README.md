@@ -62,4 +62,4 @@ A modern, fully responsive e-commerce web application with a focus on clean UI a
 
 **Mohamed Elshahat Ibrahim**  
 - GitHub: [@mohamedfakhar](https://github.com/mohamedfakhar)  
-- LinkedIn: [Mohamed Fakhr](https://www.linkedin.com/in/mohamed-fakhr)
+- LinkedIn: [Mohamed Fakhr](https://www.linkedin.com/in/mohamedfakhr/)
